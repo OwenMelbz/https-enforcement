@@ -1,5 +1,7 @@
 {
     "name": "owenmelbz/https-enforcement",
+    "description": "Laravel 5.x middleware to enforce https redirection for your app.",
+    "keywords": ["laravel", "https", "redirect", "force", "enforce"],
     "license": "MIT",
     "authors": [
         {
