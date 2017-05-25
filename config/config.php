@@ -8,4 +8,12 @@
 
     'enforce_https' => env('ENFORCE_HTTPS', false),
 
+    /*
+    |--------------------------------------------------------------------------
+    | A list of URIs to exclude from enforcement, if they pass Request::is()
+    |--------------------------------------------------------------------------
+    */
+
+   'except' => []
+
 ];

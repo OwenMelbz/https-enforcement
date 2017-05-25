@@ -32,6 +32,11 @@ class HttpsEnforcementServiceProvider extends ServiceProvider {
         ], 'config');
 
         if (config('https_enforcement.enforce_https') === true) {
+
+            HttpsEnforcementAgency::setExceptions(
+                config('https_enforcement.except')
+            );
+
             $this->app->make('Illuminate\Contracts\Http\Kernel')->prependMiddleware(
                 HttpsEnforcementAgency::class
             );
