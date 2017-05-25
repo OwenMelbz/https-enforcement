@@ -1,6 +1,6 @@
 # Laravel 5 HTTPS Enforcement Agent
 
-An automatic piece of middleware, which will redirect users accessing non https urls, to the secure equivalent unless specified in the ignore list
+An automatic piece of middleware for Laravel 5.x, which will redirect users accessing non https urls, to the secure equivalent unless specified in the ignore list
 
 
 ## Usage
