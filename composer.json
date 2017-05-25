@@ -1,12 +1,12 @@
 {
-    "name": "vendor/package",
-    "description": "",
-    "keywords": [],
-    "homepage": "",
+    "name": "owenmelbz/https-enforcement",
+    "description": "Enables you to enforce SSL on your whole HTTP layer.",
+    "keywords": ["ssl", "https", "force"],
+    "homepage": "https://www.owenmelbourne.com",
     "authors": [
         {
-            "name": "",
-            "email": ""
+            "name": "Owen Melbourne",
+            "email": "owenmelbz@gmail.com"
         }
     ],
     "require": {
@@ -17,9 +17,9 @@
     },
     "autoload": {
        "psr-4": {
-         "Vendor\\Package\\": "src/Package"
+         "OwenMelblz\\HttpsEnforcement\\": "src/HttpsEnforcement"
         }
     },
     "license": "MIT"
-    
+
 }
