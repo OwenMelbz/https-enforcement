@@ -31,7 +31,11 @@ class HttpsEnforcementServiceProvider extends ServiceProvider {
             __DIR__.'/../config/config.php' => config_path($this->packageName.'.php'),
         ], 'config');
 
-        dd('here');
+        if (config('https_enforcement.enforce_https') === true) {
+            $this->app->make('Illuminate\Contracts\Http\Kernel')->prependMiddleware(
+                HttpsEnforcementAgency::class
+            );
+        }
     }
 
     /**
