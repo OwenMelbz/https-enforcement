@@ -1,8 +1,6 @@
 {
     "name": "owenmelbz/https-enforcement",
-    "description": "Enables you to enforce SSL on your whole HTTP layer.",
-    "keywords": ["ssl", "https", "force"],
-    "homepage": "https://www.owenmelbourne.com",
+    "license": "MIT",
     "authors": [
         {
             "name": "Owen Melbourne",
@@ -16,10 +14,8 @@
         "phpunit/phpunit": "~4.5"
     },
     "autoload": {
-       "psr-4": {
-         "OwenMelblz\\HttpsEnforcement\\": "src/HttpsEnforcement"
+        "psr-4": {
+            "OwenMelbz\\HttpsEnforcement\\": "src/"
         }
-    },
-    "license": "MIT"
-
+    }
 }
