@@ -27,7 +27,7 @@ class HttpsEnforcementAgency {
     }
 
     /**
-     * Determine if the request has a URI that should pass through CSRF verification.
+     * Determine if the request URI matches a configured exception.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return bool
